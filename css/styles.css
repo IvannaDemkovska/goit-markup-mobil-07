@@ -572,7 +572,7 @@ img {
   .about-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
   .about-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -1228,6 +1228,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #8e8f99;
+}
+.coment-title {
+  margin-bottom: 4px;
 }
 
 .form-input-wrapper {
