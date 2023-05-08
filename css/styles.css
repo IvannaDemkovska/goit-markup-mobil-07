@@ -636,8 +636,9 @@ img {
 
   .work-list {
     display: flex;
-    gap: 24px;
+    gap: 72px 24px;
     align-items: center;
+    flex-wrap: wrap;
   }
 
   .work-item {
@@ -1115,10 +1116,10 @@ img {
 
 .modal {
   position: absolute;
-  width: 100%;
-  left: 0;
+  width: calc(100% - 30px);
+  left: 50%;
   top: 50%;
-  transform: translateY(-50%) scale(1);
+  transform: translate(-50%, -50%) scale(1);
   padding: 72px 16px 24px 16px;
 
   background-color: var(--white-color);
